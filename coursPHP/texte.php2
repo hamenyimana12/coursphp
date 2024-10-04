@@ -1,0 +1,12 @@
+<?php
+    $firstname = "franck";
+    $lastname = "billy";
+    $poids = 80;
+    $age = 30;
+    echo "Voici ". $firstname ." ". $lastname.", il a ". $age . " ans et un poids de ". $poids . " Kilos.";
+
+
+
+
+
+    

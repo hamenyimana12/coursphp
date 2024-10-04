@@ -1,0 +1,25 @@
+$mois = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
+
+foreach ($mois as $key => $mois_actuel) {
+    if ($key == count($mois) - 1) {
+        echo $mois_actuel; 
+    } else {
+        echo $mois_actuel . " - ";
+    }
+}
+
+
+
+EXE2
+
+$notes = [12, 5, 18, 9, 15];
+
+foreach ($notes as $note) {
+    if ($note >= 15) {
+        echo "Excellente note : " . $note . "<br>";
+    } elseif ($note >= 10) {
+        echo "Note correcte : " . $note . "<br>";
+    } else {
+        echo "Besoin d'amélioration : " . $note . "<br>";
+    }
+}
